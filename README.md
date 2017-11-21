@@ -3,7 +3,7 @@
 ## Link de ejercicio: ##
 
 En esta página se crea y experimenta por primera vez con un menú vertical, con 
-cambios de colores y varicaciones de fonts.
+variaciones de colores en los estados de botones y cambio de fonts.
 
 [LMS Laboratoria Video Link](https://www.youtube.com/watch?v=tk6DAx5Crn4)
 
