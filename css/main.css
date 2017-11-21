@@ -1,0 +1,62 @@
+/* Se utiliza el atributo outline para poder tener una ayuda visual del espacio que ocupan nuestras etiquetas y poder editarlas mejor */
+body {
+    font-family: sans-serif;
+}
+
+nav{
+    /* outline: 2px solid red; */
+    width: 180px;
+}
+
+/* Eliminación de bullets con list style*/
+/* Utilizacion de line-height para espaciado sup e inf de cada botón */
+ul{
+    line-height: 24px;    
+    list-style: none;
+    margin: 0;
+    /* outline: 2px solid yellow; */
+    padding: 0;
+}
+
+li{
+    /* outline: 1px solid red; */
+    background: #f5f5f5;
+}
+
+/* Utilizacion de display para hacer el anchor de la misma longitud que los li(que es block) */
+/* Quitamos el color y subrayados de hipervinculos con text-decoration y color*/
+a{
+    /* outline: 5px solid green; */
+    color: black;   
+    display: block;
+    padding-left: 15px;    
+    text-decoration: none;
+}
+
+/* Utilización de pseudoselector para igualar al ejemplo dado */
+ul>li:first-child {
+    background: #f9a91a;
+}
+
+/* Aplicación de hover con cambio de color la pasar el cursor */
+a:hover{
+    background: #e0e0d1;
+}
+
+a:active{
+    background: #333;
+    color:#fff;
+}
+
+/* Aplicación de cambio de color de letra al pasar el cursor con hover */
+ul>li:first-child a{
+    color: #fff;
+}
+
+ul>li:first-child a:hover{
+    color: #000;
+}
+
+ul>li:first-child a:active{
+    color: #fff;
+}
